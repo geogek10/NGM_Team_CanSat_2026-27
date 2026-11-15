@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+node_modules/
+dist/
+build/
+.next/
+.env
+.env.local
+04_field_gcs_scada/logs/*.csv
+04_field_gcs_scada/logs/*.tlog
+04_field_gcs_scada/logs/*.db
+*.bbl
+.DS_Store
