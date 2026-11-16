@@ -34,8 +34,8 @@ int8_t cansat_bme688_init(
 
     struct bme68x_heatr_conf heatr = {
         .enable      = BME68X_ENABLE,   // Ενεργοποίηση του θερμαντήρα αερίων VOC
-        .temp_prof   = heater_temps,    // Πίνακας θερμοκρασιών [200°C, 350°C]
-        .dur_prof    = heater_durs,     // Πίνακας διάρκειας [100ms, 100ms]
+        .heatr_temp_prof   = heater_temps,    // Πίνακας θερμοκρασιών [200°C, 350°C]
+        .heatr_dur_prof    = heater_durs,     // Πίνακας διάρκειας [100ms, 100ms]
         .profile_len = 2                // Πλήθος βημάτων στον κύκλο θέρμανσης
     };
     rslt = bme68x_set_heatr_conf(BME68X_SEQUENTIAL_MODE, &heatr, dev); // Διαδοχικός κύκλος
