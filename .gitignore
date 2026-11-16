@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+build/
+.env
+receiver/02_laptop_scada_gcs/logs/*.csv
+receiver/02_laptop_scada_gcs/logs/*.tlog
+receiver/02_laptop_scada_gcs/logs/*.db
+*.bbl
+.DS_Store
